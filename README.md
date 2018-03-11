@@ -1,11 +1,11 @@
-<b>Olympia is a one page "MC Server" theme for Bootstrap created by, Sid Engel.</b>
+<b>Olympia-Personal is a one page MaterializeCSS template, created from Olympia.</b>
 
 
 <h2>Getting Started</h2>
 
 To begin using this template, choose one of the following options to get started:
 
-<b>Clone the repo:</b> git clone https://github.com/sid-engel/Olympia.git<br>
+<b>Clone the repo:</b> git clone https://github.com/sid-engel/Olympia-Personal.git<br>
 <b>Fork the repo</b><br>
 
 
@@ -18,7 +18,7 @@ Have a bug or an issue with this template? Open a new issue here on GitHub.
 
 Olympia was created, and is maintained by Sid Engel.
 
-https://www.sidengel.com<br>
+https://sidengel.com<br>
 https://twitter.com/sid_engel<br>
 https://github.com/sid-engel<br>
 
@@ -32,5 +32,3 @@ https://github.com/michalsnik/aos<br>
 
 <b>Font Awesome</b>
 http://fontawesome.io<br>
-
-<h3 style="color: red;">More details can be found on https://www.spigotmc.org/resources/olympia-onepage-bootstrap-template.37155/</h3>
