@@ -1,100 +1,94 @@
-p {
-  font-size: 16px;
-}
-
-h4 {
-  padding-bottom: 2%;
-}
-
-.row {
-  margin: 0;
-}
-
-.brand-logo {
-  padding-left: 20px !important;
+b {
+  font-weight: bold;
 }
 
 .header {
-  color: white;
+  height: 75vh;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.header .card {
+  margin-top: 14vh;
+  border-radius: 2%;
+}
+
+.header-content .card {
+  padding: 3%!important;
+}
+
+.header-content .card .row {
+  margin-bottom: 0px;
+}
+
+.header-content .card-action {
+  margin-top: 3%!important;
+  padding-top: 3%;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  border-radius: 4%;
+  padding-right: 0px;
+}
+
+.social-btn {
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .main {
-  padding: 3% 0px 3% 0px;
-  margin:  0px 8% 0px 8%;
+  padding: 3% 0px 2% 0px;
+  background-color: rgb(244, 244, 244)
 }
 
-/* Info */
-.info {
-  background-color: rgb(250, 250, 250);
+.col-padding {
+  padding-right: 6%!important;
 }
 
-.info img {
-  max-width: 25%;
+.white-bg {
+  background-color: white;
 }
 
-.about {
-  background-color: rgb(244, 244, 244);
+.row .col {
+  padding: 1%;
 }
 
-.about img {
-  max-width: 70%;
-  margin-bottom: -10%;
+.page-footer .row, .page-footer {
+  margin-top: 0px!important;
+  padding-top: 0.2%!important;
+  padding-bottom: 0.2%!important;
+  margin-bottom: 0px;
 }
 
-/* Staff */
-.staff {
-  background-color: rgb(250, 250, 250);
+.projects .row {
+  margin-top: 0px;
+  margin-bottom: 0.25%;
+}
+
+.project-btn {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.about .col {
+  padding: 0px;
 }
 
 .no-padding {
   padding: 0;
 }
 
-
-.staff i {
-  font-size: 25px;
-  margin: 0px .5% 0px .5%;
-  color: #212121;
-}
-
-.staff i:hover {
-  color: rgb(70, 70, 70);
-}
-
-.vip {
-  background-color: rgb(244, 244, 244)
-}
-
-.screenshots {
-  background-color: rgb(250, 250, 250);
-}
-
 /* Responsiveness */
 @media screen and (max-width: 992px) {
   .main {
     padding: 10% 0 10% 0;
-  }
-
-  .about, .page-footer {
-    text-align: center;
-  }
-
-  .about img {
-    padding-bottom: 8%;
-  }
-
-  .screenshots .row .col {
-    padding: 2px 2px 2px 2px;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .contact .card-panel {
-    margin: 3% 25% 3% 25%;
-  }
-
-  .screenshots .row:last-child {
-    padding-top: 1.33%;
   }
 }
 

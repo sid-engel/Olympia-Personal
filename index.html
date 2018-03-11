@@ -16,14 +16,12 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 
   <!-- Font Awesome -->
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
   <!-- AOS -->
   <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
   <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 
-  <!-- MC Player Counter -->
-  <script src="https://cdn.rawgit.com/leonardosnt/mc-player-counter/1.1.0/dist/mc-player-counter.min.js"></script>
 
   <!-- Theme's Stylesheet -->
   <link rel="stylesheet" href="./src/css/theme.css" />
@@ -33,7 +31,7 @@
   <script src="./src/js/nav.js"></script>
 
   <!-- Site Title -->
-  <title>Olympia 2.0 - Your Server</title>
+  <title>Sid Engel - CSIT Student and Blockchain Enthusiast</title>
 
   <!-- Meta Info -->
   <meta charset="UTF-8">
@@ -44,458 +42,225 @@
 </head>
 
 <body>
-
   <!-- Nav -->
-  <div class="header" style="background: url('./src/img/cityscape.jpg'); background-position: 50% 10%; background-attachment: fixed;">
+  <div class="header" style="background: url('./src/img/bg.jpg'); background-position: 50% 20%; background-attachment: fixed;">
     <div class="navbar-fixed">
       <nav class="z-depth-0">
-        <div class="nav-wrapper">
-          <a href="#!" class="brand-logo">Logo</a>
+        <div class="nav-wrapper container">
+          <a href="#top" class="brand-logo">Logo</a>
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="#about">About</a></li>
-            <li><a href="#staff">Staff</a></li>
-            <li><a href="#vip">Vip</a></li>
-            <li><a href="#screenshots">Screenshots</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
           <ul class="side-nav" id="mobile-demo">
             <li><a href="#about">About</a></li>
-            <li><a href="#staff">Staff</a></li>
-            <li><a href="#vip">Vip</a></li>
-            <li><a href="#screenshots">Screenshots</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
-
-      <!-- / Nav -->
-
     </div>
-    <div class="header-content center-align" data-aos="fade">
-      <h1 style="padding-top: 6%;">Welcome To Olympia</h1>
-      <h5 style="">An easy to modify one page template, for server owners.</h5>
-      <a class="waves-effect waves-light btn-large grey darken-4" style="margin-bottom: 10%; margin-top: 2%;" href="#">GitHub</a>
+
+    <!-- / Nav -->
+
+    <!-- Header -->
+      <div class="header-content" data-aos="fade-in" data-aos-once="true" id="top">
+        <div class="row">
+          <div class="col s10 offset-s1 m6 offset-m3 l4 offset-l4">
+            <div class="card z-depth-4">
+              <div class="row valign-wrapper">
+                <div class="col s4 m4 l4" style="padding-left: 0px; padding-right: 0px;">
+                  <img src="./src/img/avatar.jpg" class="center-align responsive-img" style="border-radius: 50%; max-width: 80%;">
+                </div>
+                <div class="col s8 m8 l8">
+                  <h5 style="margin-top: 0px;">Sid Engel</h5>
+                  <p style="margin-top: 0px;">CSIT Student, Web Developer, System Administrator, and Content Writer.</p>
+                  <p class=""><b>Freelance Availability: </b><i class="far fa-check-circle" style="color: #689f38; font-size: 16px;"></i></p>
+                </div>
+              </div>
+              <div class="card-action right-align">
+                <a href="https://twitter.com/Sid_Engel" class="waves-effect waves-light btn social-btn z-depth-0 blue lighten-1"><i class="fab fa-twitter"></i></a>
+                <a href ="https://www.facebook.com/CryptoVoid/" class="waves-effect waves-light btn social-btn z-depth-0 blue darken-1"><i class="fab fa-facebook"></i></a>
+                <a href="https://github.com/sid-engel" class="waves-effect waves-light btn social-btn z-depth-0 grey darken-2"><i class="fab fa-github"></i></a>
+                <a href="mailto:info@sidengel.com" class="waves-effect waves-light btn social-btn z-depth-0 grey darken-4"><i class="far fa-envelope"></i></a>
+                <a href="#" class="waves-effect waves-light btn z-depth-0 red darken-2">CV</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
 
-  <!-- Info -->
+<!-- /Header -->
 
-  <div class="info center-align" data-aos="fade">
+  <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2 white-bg">
+    <!-- About -->
     <div class="main">
       <div class="row">
-        <div class="col l4 s12">
-          <img class="responsive-img" src="./src/img/dirt-icon.png">
-          <h4>Survival</h4>
-          <i class="chip">
-          <span data-playercounter-ip="mc-central.net"></span> Players Online
-        </i>
-          <p>This is placeholder text. You should replace this with your own content. Morbi molestie mollis molestie. Sed tincidunt diam eu ante pharetra dignissim. Aenean viverra risus sed ullamcorper blandit. Integer ultricies sapien sed ornare ornare.
-            Suspendisse finibus non sem vitae viverra.</p>
-          <a class="btn-large waves-effect waves-light grey darken-4" style="margin-bottom: 9%; margin-top: 2%;">Connect</a>
-        </div>
-        <div class="col l4 s12">
-          <img class="responsive-img" src="./src/img/stone-icon.png">
-          <h4>Creative</h4>
-          <i class="chip">
-          <span data-playercounter-ip="play.guildcraft.org"></span> Players Online
-        </i>
-          <p>This is placeholder text. You should replace this with your own content. Morbi molestie mollis molestie. Sed tincidunt diam eu ante pharetra dignissim. Aenean viverra risus sed ullamcorper blandit. Integer ultricies sapien sed ornare ornare.
-            Suspendisse finibus non sem vitae viverra.</p>
-          <a class="btn-large waves-effect waves-light grey darken-4" style="margin-bottom: 9%; margin-top: 2%;">Connect</a>
-        </div>
-        <div class="col l4 s12">
-          <img class="responsive-img" src="./src/img/ender-icon.png">
-          <h4>SkyBlock</h4>
-          <i class="chip">
-          <span data-playercounter-ip="play.hypixel.net"></span> Players Online
-        </i>
-          <p>This is placeholder text. You should replace this with your own content. Morbi molestie mollis molestie. Sed tincidunt diam eu ante pharetra dignissim. Aenean viverra risus sed ullamcorper blandit. Integer ultricies sapien sed ornare ornare.
-            Suspendisse finibus non sem vitae viverra.</p>
-          <a class="btn-large waves-effect waves-light grey darken-4" style="margin-bottom: 9%; margin-top: 2%;">Connect</a>
-        </div>
-      </div>
-    </div>
-  </div>
+        <div class="col s12 m10 offset-m1 l8 offset-l2 white-bg z-depth-1" id="about">
+          <div class="about" data-aos="fade-in" data-aos-anchor-placement="top-bottom" data-aos-once="true">
+            <div class="row valign-wrapper">
+              <div class="col s4 m4 l4 hide-on-small-only col-padding">
+                <img src="./src/img/coder.png" class="responsive-img">
+              </div>
+              <div class="col s12 m8 l8" style="margin-left: 0px!important;">
+                <h5>About Me</h5>
+                <p>Hey there, if you havn't figured out already, my name's Sid. I'm an eighteen year old Full-Time CSIT Student, and Part-Time Web Developer, System Administrator, and Blockchain Content Writer.</p>
+                <p>If I'm not in class, or working on something related to the extremely long title above, I'm either at the gym, spending time with friends, or working on a crazy new project.</p>
+                <p>I love to learn, and have a burning passion for anything hardware, or software related.</p>
+              </div>
+            </div>
+          </div>
+      <!-- / About -->
 
-  <!-- / Info -->
+      <!-- Education -->
 
-  <!-- About -->
+      <div class="education" data-aos="fade-in" data-aos-anchor-placement="top-bottom" data-aos-once="true">
+        <div class="row valign-wrapper">
+          <div class="col s12 m8 l8" style="margin-left: 0px!important;">
+            <h5>My Education</h5>
+            <p>Microsoft Office Suite Master Certification - <b>J.W. Mitchell High School(2015)</b></p>
+            <p>HTML/CSS Certification - <b>Codeacademy.com(2016)</b></p>
+            <p>PC Pro+ Certification - <b>TestOut.com(TBD)</b></p>
+            <p>Networking Pro+ - <b>CompTIA.com(TBD)</b></p>
+            <p>Linux + Certification - <b>CompTIA.com(TBD)</b></p>
+          </div>
+          <div class="col s4 m4 l4 hide-on-small-only">
+            <img src="./src/img/books.png" style="max-width: 90%;" class="responsive-img">
+          </div>
+        </div>
+      </div>
+      <hr style="margin-top: 0px; margin-bottom: 0px;" width="80%" class="center-align" data-aos="fade-in" data-aos-once="true">
+      <!-- /Education -->
 
-  <div class="about" id="about">
-    <div class="main">
-      <div class="row">
-        <div class="col s12 l5 align-center">
-          <img class="responsive-img" src="./src/img/loop.gif" data-aos="fade-right">
-        </div>
-        <div class="col s12 l7" data-aos="fade-left">
-          <h4>What is Olympia?</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie mollis molestie. Morbi molestie mollis molestie. Sed tincidunt diam eu ante pharetra dignissim. Aenean viverra risus sed ullamcorper blandit. Integer ultricies sapien sed
-            ornare ornare. Suspendisse finibus non sem vitae viverra.Morbi molestie mollis molestie. Morbi molestie mollis molestie. Sed tincidunt diam eu ante pharetra dignissim. Aenean viverra risus sed ullamcorper blandit. Integer ultricies sapien
-            sed ornare ornare. Suspendisse finibus non sem vitae viverra. Morbi molestie mollis molestie.</p>
-          <p>Sed tincidunt diam eu ante pharetra dignissim. Aenean viverra risus sed ullamcorper blandit.</p>
-          <a class="waves-effect waves-light btn-large grey darken-4" style="margin-top: 2%;" href="#">Discord</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- / About -->
-
-  <!-- Staff -->
-
-  <div class="staff" id="staff">
-    <div class="main">
-      <div class="row">
-        <div class="col s12">
-          <h4 class="center-align" style="padding-bottom: 1
-        %;">Our Staff Team</h5>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col m6 s12 l3" data-aos="zoom-in-up" data-aos-duration="400">
-        <div class="card-panel no-padding">
-          <div class="row">
-            <div class="col s12 no-padding">
-              <img class="responsive-img materialboxed" src="./src/img/profile3.png">
+      <!-- Projects -->
+      <div class="projects" data-aos="fade" data-aos-once="true" style="padding-bottom: 0%" id="projects">
+        <div class="row">
+          <h5 class="center-align" style="padding-bottom: 0%; padding-top: 2%;">Personal Projects</h5>
+          <div class="col s12 l4 m6">
+            <div class="card">
+              <div class="card-image">
+                <img src="./src/img/cryptovoid.png">
+                <span class="card-title">CryptoVoid</span>
+              </div>
+              <div class="card-content">
+                <p>Educational cryptocurrency and blockchain related content. All content is written by myself.</p>
+              </div>
+              <div class="card-action right-align">
+                <a href="https://cryptovoid.net" class="waves-effect waves-light btn small z-depth-0 red darken-2 project-btn">Preview</a>
+              </div>
             </div>
           </div>
-          <div class="row main">
-            <div class="col s12 center-align">
-              <h5>Sid Engel</h5>
+          <div class="col s12 l4 m6">
+            <div class="card">
+              <div class="card-image">
+                <img src="./src/img/ottercraft.png">
+                <span class="card-title">OtterCraft</span>
+              </div>
+              <div class="card-content">
+                <p>MyBB forum, dedicated to the community and visitors surrounding my Minecraft server.</p>
+              </div>
+              <div class="card-action right-align">
+                <a href="https://ottercraft.net" class="waves-effect waves-light btn small z-depth-0 red darken-2 project-btn">Preview</a>
+              </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col s12">
-              <blockquote style="margin: 0% 8% 0% 8%;">
-                I'm Sid. A Web Developer with intentions of growing my skill, and providing stunning content to the MineCraft community.
-              </blockquote>
-            </div>
-          </div>
-          <div class="row main">
-            <div class="col s12 center-align">
-              <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+          <div class="col s12 l4 m6">
+            <div class="card">
+              <div class="card-image">
+                <img src="./src/img/olympia.png">
+                <span class="card-title">Olympia</span>
+              </div>
+              <div class="card-content">
+                <p>A open source landing and info site directed at Minecraft server owners, and web newbies.</p>
+              </div>
+              <div class="card-action right-align">
+                <a href="https://sidengel.com/dev/olympia" class="waves-effect waves-light btn small z-depth-0 red darken-2 project-btn">Preview</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col m6 s12 l3" data-aos="zoom-in-up" data-aos-duration="400" data-aos-delay="150">
-        <div class="card-panel no-padding">
-          <div class="row">
-            <div class="col s12 no-padding">
-              <img class="responsive-img materialboxed" src="./src/img/profile3.png">
-            </div>
-          </div>
-          <div class="row main">
-            <div class="col s12 center-align">
-              <h5>Sid Engel</h5>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col s12">
-              <blockquote style="margin: 0% 8% 0% 8%;">
-                I'm Sid. A Web Developer with intentions of growing my skill, and providing stunning content to the MineCraft community.
-              </blockquote>
-            </div>
-          </div>
-          <div class="row main">
-            <div class="col s12 center-align">
-              <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
-            </div>
+        <div class="row alert">
+          <div class="col s12">
+          <div class="card-panel orange darken-2 center-align" style="padding-bottom: 1%; padding-top: 1%;" data-aos="fade-in" data-aos-once="true" id="top">
+            <p style="color: white;"><b>Want some work done?</b> I'm available for freelance, contact me via the forum below or another method to get started.</p>
           </div>
         </div>
-      </div>
-      <div class="col m6 s12 l3" data-aos="zoom-in-up" data-aos-duration="400" data-aos-delay="300">
-        <div class="card-panel no-padding">
-          <div class="row">
-            <div class="col s12 no-padding">
-              <img class="responsive-img materialboxed" src="./src/img/profile3.png">
-            </div>
-          </div>
-          <div class="row main">
-            <div class="col s12 center-align">
-              <h5>Sid Engel</h5>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col s12">
-              <blockquote style="margin: 0% 8% 0% 8%;">
-                I'm Sid. A Web Developer with intentions of growing my skill, and providing stunning content to the MineCraft community.
-              </blockquote>
-            </div>
-          </div>
-          <div class="row main">
-            <div class="col s12 center-align">
-              <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
-            </div>
-          </div>
         </div>
       </div>
-      <div class="col m6 s12 l3" data-aos="zoom-in-up" data-aos-duration="400" data-aos-delay="450">
-        <div class="card-panel no-padding">
-          <div class="row">
-            <div class="col s12 no-padding">
-              <img class="responsive-img materialboxed" src="./src/img/profile3.png">
+        <div class="testimonial row center-align" style="margin-top: 0px;" data-aos="fade-in" data-aos-once="true" id="top">
+          <h5 class="center-align">Testimonials</h5>
+          <div class="col s12 m4">
+            <div class="card-panel center-align">
+              <span style="font-size: 2em; color: green;"><b>5/5</b></span>
+              <blockquote>"Sid was amazing to work with, very patient Web Developer who was very understanding when I ultimately realized I had no idea what sort of layout/design I was looking for."</blockquote>
+              <span>Megan B. - <b>CEO Of IronNexus</b></span>
             </div>
           </div>
-          <div class="row main">
-            <div class="col s12 center-align">
-              <h5>Sid Engel</h5>
+          <div class="col s12 m4">
+            <div class="card-panel center-align">
+              <span style="font-size: 2em; color: green;"><b>5/5</b></span>
+              <blockquote>"Love the work done for me, and at a great price too. He’s incredibly easy to work with, and I'd highly recommend him for any of your web development needs. Thanks again!"</blockquote>
+              <span>Spud X. - <b>CEO Of ACMC</b></span>
             </div>
           </div>
-          <div class="row">
-            <div class="col s12">
-              <blockquote style="margin: 0% 8% 0% 8%;">
-                I'm Sid. A Web Developer with intentions of growing my skill, and providing stunning content to the MineCraft community.
-              </blockquote>
+          <div class="col s12 m4">
+            <div class="card-panel center-align">
+              <span style="font-size: 2em; color: green;"><b>5/5</b></span>
+              <blockquote>"Sid did an absolutely amazing job working on my site. Before our contract began, it was a boring and dead page. After completion, our site had became a piece of art."</blockquote>
+              <span>Andrew P. - <b>CEO Of ElixirPvP</b></span>
             </div>
           </div>
-          <div class="row main">
-            <div class="col s12 center-align">
-              <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
-            </div>
-          </div>
+          <a href="#top"><i class="fas fa-chevron-circle-up" style="margin-top: 2%; font-size: 2.5em; color: #d32f2f;"></i></a>
         </div>
-      </div>
     </div>
   </div>
 </div>
-  <!-- / Staff -->
 
-  <!-- Vip -->
-  <div class="vip center-align" id="vip">
-    <div class="main">
-      <div class="row" data-aos="fade">
-        <div class="col s12">
-          <h4>Donator Information</h4>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col s12 l4" data-aos="fade-right">
-          <div class="card-panel">
-            <div class="row">
-              <div class="col s12">
-                <h5>Vip</h5>
-                <span>$5.00 USD</span>
-                <br><br>
-                <table class="centered responsive-table striped">
-                  <tbody>
-                    <tr>
-                      <td>Perk 1</td>
-                    </tr>
-                    <tr>
-                      <td>Perk 2</td>
-                    </tr>
-                    <tr>
-                      <td>Perk 3</td>
-                    </tr>
-                    <tr>
-                      <td>Perk 4</td>
-                    </tr>
-                    <tr>
-                      <td>Perk 5</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <br>
-                <a class="waves-effect waves-light btn-large grey darken-4" href="#">Purchase</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 l4" data-aos="fade">
-          <div class="card-panel">
-            <div class="row">
-              <div class="col s12">
-                <h5>Vip</h5>
-                <span>$10.00 USD</span>
-                <br><br>
-                <table class="centered responsive-table striped">
-                  <tbody>
-                    <tr>
-                      <td>Perk 1</td>
-                    </tr>
-                    <tr>
-                      <td>Perk 2</td>
-                    </tr>
-                    <tr>
-                      <td>Perk 3</td>
-                    </tr>
-                    <tr>
-                      <td>Perk 4</td>
-                    </tr>
-                    <tr>
-                      <td>Perk 5</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <br>
-                <a class="waves-effect waves-light btn-large grey darken-4" href="#">Purchase</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 l4" data-aos="fade-left">
-          <div class="card-panel">
-            <div class="row">
-              <div class="col s12">
-                <h5>Vip++</h5>
-                <span>$15.00 USD</span>
-                <br><br>
-                <table class="centered responsive-table striped">
-                  <tbody>
-                    <tr>
-                      <td>Perk 1</td>
-                    </tr>
-                    <tr>
-                      <td>Perk 2</td>
-                    </tr>
-                    <tr>
-                      <td>Perk 3</td>
-                    </tr>
-                    <tr>
-                      <td>Perk 4</td>
-                    </tr>
-                    <tr>
-                      <td>Perk 5</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <br>
-                <a class="waves-effect waves-light btn-large grey darken-4" href="#">Purchase</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- /Vip -->
+<!-- Contact -->
+<div class="contact" id="contact" style="background: url('https://img00.deviantart.net/08e2/i/2012/145/0/f/even_giants_fall_by_tylercreatesworlds-d510mdi.jpg'); background-position: 50% 80%; background-attachment: fixed; padding-top: 2%; padding-bottom: 2%;">
+    <div class="row" style="margin: 0px;">
+      <div class="col s10 offset-s1 m6 offset-m3 l4 offset-l4">
+        <div class="card-panel" style="margin-top: 3%; margin-bottom: 3%;">
+          <h5 class="center-align">Contact</h5>
+          <form>
+         <div class="row">
+           <div class="input-field col s6">
+             <input type="text" class="form-control" id="name" name="name" placeholder="Name" required />
+             <label for="name">Name</label>
+           </div>
+           <div class="input-field col s6">
+             <input type="text" class="form-control" id="email" name="email" placeholder="Email" required />
+             <label for="email">Email</label>
+           </div>
+         </div>
+         <div class="row">
+           <form class="col s12">
+               <div class="input-field">
+                 <textarea id="message" class="materialize-textarea"></textarea>
+                 <label for="message">Your Message</label>
+               </div>
+             <div>
+               <button type='submit' name='btn_login' class='btn waves-effect red darken-2'>Submit</button>
+             </div>
+           </div>
+         </form>
+       </div>
+     </div>
+   </div>
+ </div>
 
-  <!-- Screenshots -->
-  <div class="screenshots center-align" id="screenshots">
-    <div class="main" data-aos="fade">
-      <div class="row">
-        <div class="col s12">
-          <h4>Server Screenshots</h4>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col l3 s6">
-          <div class="card-panel" style="margin: 0; padding: 0;">
-            <img class="responsive-img materialboxed" src="./src/img/cityscape.jpg">
-          </div>
-        </div>
-        <div class="col l3 s6">
-          <div class="card-panel" style="margin: 0; padding: 0;">
-            <img class="responsive-img materialboxed" src="./src/img/cityscape.jpg">
-          </div>
-        </div>
-        <div class="col l3 s6">
-          <div class="card-panel" style="margin: 0; padding: 0;">
-            <img class="responsive-img materialboxed" src="./src/img/cityscape.jpg">
-          </div>
-        </div>
-        <div class="col l3 s6">
-          <div class="card-panel" style="margin: 0; padding: 0;">
-            <img class="responsive-img materialboxed" src="./src/img/cityscape.jpg">
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col l3 s6">
-          <div class="card-panel" style="margin: 0; padding: 0;">
-            <img class="responsive-img materialboxed" src="./src/img/cityscape.jpg">
-          </div>
-        </div>
-        <div class="col l3 s6">
-          <div class="card-panel" style="margin: 0; padding: 0;">
-            <img class="responsive-img materialboxed" src="./src/img/cityscape.jpg">
-          </div>
-        </div>
-        <div class="col l3 s6">
-          <div class="card-panel" style="margin: 0; padding: 0;">
-            <img class="responsive-img materialboxed" src="./src/img/cityscape.jpg">
-          </div>
-        </div>
-        <div class="col l3 s6">
-          <div class="card-panel" style="margin: 0; padding: 0;">
-            <img class="responsive-img materialboxed" src="./src/img/cityscape.jpg">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- /Screenshots -->
-
-  <!-- Contact -->
-  <div class="contact" id="contact" style="background: url('./src/img/cityscape.jpg'); background-position: 50% 10%; background-attachment: fixed;">
-    <div class="main">
-      <div class="card-panel" data-aos="fade-up">
-        <h4 class="center-align">Contact Us</h4>
-        <form class="col s12">
-          <div class="row">
-            <div class="input-field col s6">
-              <input type="text" class="form-control" id="name" name="name" placeholder="Name" required />
-              <label for="name">Name</label>
-            </div>
-            <div class="input-field col s6">
-              <input type="text" class="form-control" id="email" name="email" placeholder="Email" required />
-              <label for="email">Email</label>
-            </div>
-          </div>
-          <div class="row">
-            <form class="col s12">
-              <div class="row">
-                <div class="input-field col s12">
-                  <textarea id="message" class="materialize-textarea"></textarea>
-                  <label for="message">Your Message</label>
-                </div>
-              </div>
-              <div>
-                <button type='submit' name='btn_login' class='col s12 btn btn-large waves-effect grey darken-4'>Submit</button>
-              </div>
-            </form>
-          </div>
-
-        </form>
-      </div>
-    </div>
-  </div>
   <!-- /Contact -->
-
 
   <!-- Footer -->
   <footer class="page-footer grey darken-4 z-depth-4">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Footer Content</h5>
-          <p class="grey-text text-lighten-4">Sed tincidunt diam eu ante pharetra dignissim. Aenean viverra risus sed ullamcorper blandit.</p>
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Social Links</h5>
-          <ul>
-            <li><a class="grey-text text-lighten-3" href="#!">Official Twitter Feed</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">FaceBook Group</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
+
     <div class="footer-copyright grey darken-4 z-depth-4">
       <div class="container">
-        <!-- Please give credit, where credit is due. Leave this here... -->
-        Created with care, by Sid Engel.
-        <a class="grey-text text-lighten-4 right" href="#!">©ServerName 2017</a>
+        Created with <i class="fas fa-heart" style="color: red;"></i>, by Sid Engel.
+        <a class="grey-text text-lighten-4 right" href="#!">©Sid Engel, 2018</a>
       </div>
     </div>
   </footer>
@@ -504,7 +269,7 @@
   <!-- AOS INIT -->
   <script>
     AOS.init({
-      duration: 800,
+      duration: 700,
       easing: 'ease-in-sine',
       disable: 'mobile',
     });
