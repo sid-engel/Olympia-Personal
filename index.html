@@ -31,13 +31,13 @@
   <script src="./src/js/nav.js"></script>
 
   <!-- Site Title -->
-  <title>Sid Engel - CSIT Student and Blockchain Enthusiast</title>
+  <title>Sid Engel - Portfolio + Resume</title>
 
   <!-- Meta Info -->
   <meta charset="UTF-8">
   <meta name="author" content="Sid Engel">
-  <meta name="description" content="A friendly Minecraft server, with a relaxed vibe.">
-  <meta name="keywords" content="Minecraft, Server, Your ServerName, Multiplayer">
+  <meta name="description" content="Welcome to my portfolio/resume site. I'm an Eighteen year old Full-Time CSIT student, and Part-Time Web Developer, System Administrator, and Content Writer.">
+  <meta name="keywords" content="Sid Engel">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -47,7 +47,7 @@
     <div class="navbar-fixed">
       <nav class="z-depth-0">
         <div class="nav-wrapper container">
-          <a href="#top" class="brand-logo">Logo</a>
+          <a href="#top" class="brand-logo">SE</a>
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="#about">About</a></li>
@@ -132,7 +132,7 @@
           </div>
         </div>
       </div>
-      <hr style="margin-top: 0px; margin-bottom: 0px;" width="80%" class="center-align" data-aos="fade-in" data-aos-once="true">
+      <hr style="margin-top: 0px; margin-bottom: 0px;" width="100%" class="center-align" data-aos="fade-in" data-aos-once="true">
       <!-- /Education -->
 
       <!-- Projects -->
@@ -225,7 +225,7 @@
       <div class="col s10 offset-s1 m6 offset-m3 l4 offset-l4">
         <div class="card-panel" style="margin-top: 3%; margin-bottom: 3%;">
           <h5 class="center-align">Contact</h5>
-          <form>
+          <form method="get" action="send_form_email.php">
          <div class="row">
            <div class="input-field col s6">
              <input type="text" class="form-control" id="name" name="name" placeholder="Name" required />
@@ -237,14 +237,20 @@
            </div>
          </div>
          <div class="row">
-           <form class="col s12">
                <div class="input-field">
-                 <textarea id="message" class="materialize-textarea"></textarea>
+                 <textarea id="message" name="message" class="materialize-textarea"></textarea>
                  <label for="message">Your Message</label>
                </div>
-             <div>
-               <button type='submit' name='btn_login' class='btn waves-effect red darken-2'>Submit</button>
+           </div>
+           <div class="row">
+             <div class="col s6">
+               <p>What's 10+2?</p>
              </div>
+             <div class="input-field col s6">
+               <input type="text" class="form-control" id="captcha" name="captcha" placeholder="" required />
+               <label for="captcha">Captcha</label>
+             </div>
+             <button type='submit' name='btn_login' class='btn waves-effect red darken-2'>Submit</button>
            </div>
          </form>
        </div>
@@ -260,7 +266,7 @@
     <div class="footer-copyright grey darken-4 z-depth-4">
       <div class="container">
         Created with <i class="fas fa-heart" style="color: red;"></i>, by Sid Engel.
-        <a class="grey-text text-lighten-4 right" href="#!">©Sid Engel, 2018</a>
+        <span class="grey-text text-lighten-4 right"><a href="https://github.com/sid-engel/Olympia-Personal"><i class="fas fa-code" style="color: #d500f9;"></i></a> Sid Engel, 2018</span>
       </div>
     </div>
   </footer>
